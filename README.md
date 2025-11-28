@@ -1,4 +1,4 @@
-# Learning AI Agent
+# NotePilot for Learning AI Agent
 
 An interactive FastAPI application that wraps a LangGraph-powered LangChain agent so you can read from and write to local text files via natural-language prompts. The included single-page UI lets you send prompts to the agent and see responses without leaving the browser.
 
@@ -83,3 +83,4 @@ Errors use FastAPI's standard format, e.g. HTTP 400 for empty prompts or HTTP 50
 - Parameterize the OpenAI model and temperature via env vars.
 - Add additional LangChain tools (e.g., directory listing, note history).
 - Wrap the FastAPI app with a frontend build system or component framework for richer UX.
+
